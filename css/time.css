@@ -1,0 +1,116 @@
+body{ 
+	font: .8em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family:"Times New Roman",Georgia,Helvetica,Serif;
+	background: #000 ;
+	background: -webkit-linear-gradient(left,blue, #fff);
+	background: -moz-linear-gradient(left, #fff);
+	background: -ms-linear-gradient(left, #fff);
+	background: -o-linear-gradient(left, #fff);
+	background: linear-gradient(left, #fff);
+}
+
+#container{
+	width:100%;
+	align:center;
+	float:center;
+	padding:2px;
+	color:#fff;
+	height:100%;
+	background: #000 ;
+	background: -webkit-linear-gradient(left,blue, #fff);
+	background: -moz-linear-gradient(left, #fff);
+	background: -ms-linear-gradient(left, #fff);
+	background: -o-linear-gradient(left, #fff);
+	background: linear-gradient(left, #fff);
+}
+div#container{ 
+	padding: 2px; 
+	border:red 1px ; 
+	background:-webkit-linear-gradient(blue, #fff);
+	background:linear-gradient(scarlet, #fff);
+}
+#container  > #header{
+background-color:#ff4133;
+height:141px;
+padding:1px;
+font-weight:bold;
+overflow:hidden;
+}
+
+div.gradient1{
+	background: #000 ;
+	background: -webkit-linear-gradient(left,blue, #fff);
+	background: -moz-linear-gradient(left,blue, #fff);
+	background: -ms-linear-gradient(left,blue, #fff);
+	background: -o-linear-gradient(left,blue, #fff);
+	background: linear-gradient(left,blue, #fff);
+}
+
+
+#container > #content{
+	height:600px;
+	padding:1px;
+	text-align:center;
+}
+
+
+div#tophd  a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    background: #c0c0c0;
+    padding: 4px 12px;
+    color:#ffffff;
+    margin-right: 8px;
+    text-decoration:none;
+    border-radius: 3px;
+    -webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+    -moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+    -ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+    -o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+    transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+div#tophd a:hover{
+    background: #6F8A00;
+    color:#FFF;
+}
+div#regidx  a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    background: #c0c0c0;
+    padding: 4px 12px;
+    color:#ffffff;
+    margin-right: 8px;
+    text-decoration:none;
+    border-radius: 3px;
+    -webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+    -moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+    -ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+    -o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+    transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+div#regidx a:hover{
+    background: #6F8A00;
+    color:#FFF;
+}
+
+
+#container  > #footer{
+ clear:all;
+ background-color:#484848;
+ height:50px;
+ color:#fff;
+ font-size:11px;
+ text-align:center;
+ opacity:0.9;
+ padding: 2px 2px;
+}
+
+/* 
+header > title > logo -div 
+header > title > company 
+header > title > company > name -div
+header > title > company > service -div
+header > nav > menubar - div - a
+content > form  - div  - form - 
+footer > - div - p - 
+*/
