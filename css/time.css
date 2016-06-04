@@ -39,11 +39,11 @@ overflow:hidden;
 
 div.gradient1{
 	background: #000 ;
-	background: -webkit-linear-gradient(left,blue, #fff);
-	background: -moz-linear-gradient(left,blue, #fff);
-	background: -ms-linear-gradient(left,blue, #fff);
-	background: -o-linear-gradient(left,blue, #fff);
-	background: linear-gradient(left,blue, #fff);
+	background: -webkit-linear-gradient(left,#4d94ff, #fff);
+	background: -moz-linear-gradient(left,#4d94ff, #fff);
+	background: -ms-linear-gradient(left,#4d94ff, #fff);
+	background: -o-linear-gradient(left,#4d94ff, #fff);
+	background: linear-gradient(left,#4d94ff, #fff);
 }
 
 
