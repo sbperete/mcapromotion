@@ -2,7 +2,7 @@ body{
 	font: .8em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-family:"Times New Roman",Georgia,Helvetica,Serif;
 	background: #000 ;
-	background: -webkit-linear-gradient(left,blue, #fff);
+	background: -webkit-linear-gradient(left,#0283c2, #fff);
 	background: -moz-linear-gradient(left, #fff);
 	background: -ms-linear-gradient(left, #fff);
 	background: -o-linear-gradient(left, #fff);
@@ -11,13 +11,12 @@ body{
 
 #container{
 	width:100%;
-	align:center;
 	float:center;
 	padding:2px;
 	color:#fff;
 	height:100%;
 	background: #000 ;
-	background: -webkit-linear-gradient(left,blue, #fff);
+	background: -webkit-linear-gradient(left,#0283c2, #fff);
 	background: -moz-linear-gradient(left, #fff);
 	background: -ms-linear-gradient(left, #fff);
 	background: -o-linear-gradient(left, #fff);
@@ -25,12 +24,12 @@ body{
 }
 div#container{ 
 	padding: 2px; 
-	border:red 1px ; 
-	background:-webkit-linear-gradient(blue, #fff);
-	background:linear-gradient(scarlet, #fff);
+	border:#0283c2 1px ; 
+	background:-webkit-linear-gradient(#0283c2, #fff);
+	background:linear-gradient(#0283c2, #fff);
 }
 #container  > #header{
-background-color:#ff4133;
+background-color:#0283c2;
 height:141px;
 padding:1px;
 font-weight:bold;
@@ -39,11 +38,11 @@ overflow:hidden;
 
 div.gradient1{
 	background: #000 ;
-	background: -webkit-linear-gradient(left,#4d94ff, #fff);
-	background: -moz-linear-gradient(left,#4d94ff, #fff);
-	background: -ms-linear-gradient(left,#4d94ff, #fff);
-	background: -o-linear-gradient(left,#4d94ff, #fff);
-	background: linear-gradient(left,#4d94ff, #fff);
+	background: -webkit-linear-gradient(left,#0283c2, #fff);
+	background: -moz-linear-gradient(left,#0283c2, #fff);
+	background: -ms-linear-gradient(left,#0283c2, #fff);
+	background: -o-linear-gradient(left,#0283c2, #fff);
+	background: linear-gradient(left,#0283c2, #fff);
 }
 
 
