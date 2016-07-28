@@ -30,7 +30,7 @@ div#container{
 }
 #container  > #header{
 background-color:#0283c2;
-height:90px;
+height:100px;
 padding:1px;
 font-weight:bold;
 overflow:hidden;
